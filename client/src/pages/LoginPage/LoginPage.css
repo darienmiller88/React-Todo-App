@@ -1,0 +1,80 @@
+.login-body-color{
+    background-color: var(--darker-blue)
+}
+
+.word{
+    color: red;
+}
+
+/* .signup-form{
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 40vw;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 15pt 2pt grey;
+    padding: 15px 45px;
+}
+
+input{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0; 
+    box-shadow: 0 0 15pt 2pt #D3D3D3;
+    outline: 0;
+    text-indent: 50px;
+}
+
+.header{
+    font-size: 40px;
+    padding: 15px;
+    color: var(--darkest-blue);
+}
+
+.input-container{
+    position: relative;
+}
+
+.person-circle{
+    color: var(--darker-blue);
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    left: 17px;
+}
+
+.lock{
+    color: var(--darker-blue);
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    left: 17px;
+}
+
+.log-in{
+    background-image: linear-gradient(to right, #314755 0%, var(--coolblue)  51%, var(--darkest-blue)  100%);
+    background-size: 200% auto;
+    border-radius: 20px;
+    width: 30%;
+    min-width: 55%;
+    transition: 0.4s;
+}
+
+.log-in:hover {
+    background-position: right center; 
+    color: rgb(188, 188, 188);
+    box-shadow: 0 0 15pt 2pt black;
+}
+
+.log-in:active{
+    transform: translateY(10px);
+}
+
+:link{
+    text-decoration: none;
+} */

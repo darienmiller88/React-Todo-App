@@ -1,0 +1,10 @@
+/* Form body to store todos */
+.todo-form{
+    text-align: center;
+    background-color: var(--seethrough);
+    width: fit-content;
+    height: 50vh;
+    margin: 0 auto;
+    overflow-y: auto;
+    /* border: 2px solid black; */
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../static/img/smallT.png" type="image/x-icon">
+        <link rel="stylesheet" href="../static/css/form-body.css">
+        <link rel="stylesheet" href="../static/css/buttons.css">
+        <link rel="stylesheet" href="../static/css/inputbar.css">
+        <link rel="stylesheet" href="../static/css/scrollbar.css">
+        <link rel="stylesheet" href="../static/css/todo-body.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <title>Todo App</title>
+    </head>
+    <body> 
+        
+        <div class="mini-nav">
+            <div class="app-name">Todo App</div>
+            <div class="logout">Logout</div>
+        </div>
+        <!-- <header>Todo App <span>Logout</span></header> -->
+        <div class="create-todo">
+            <!-- <textarea name="input-todo" id="input-todo" rows="2"></textarea> -->
+            <input type="text" name="input-todo" id="input-todo" placeholder="Enter To-do">
+            <button id="add-task-button">Add Task</button>
+        </div>
+
+        <div class="todo-container">
+            <div class="todo-form">
+                <div class="todo">
+                    <input type="checkbox" id="todo-completed" name="todo-completed" value="todo">
+                    <div class="todo-name">Finish this fucking project</div>
+                    <button class="base-button edit-button"><i class="bi bi-pencil"></i></button>
+                    <button class="base-button delete-button"><i class="bi bi-trash"></i></button>
+                </div>
+                <div class="todo">
+                    <input type="checkbox" id="todo-completed" name="check-completed" value="todo">
+                    <div class="todo-name">Finish physics</div>
+                    <button class="base-button edit-button"><i class="bi bi-pencil"></i></button>
+                    <button class="base-button delete-button"><i class="bi bi-trash"></i></button>
+                </div>
+                
+            </div>
+        </div>
+       
+        
+    </body>
+</html>

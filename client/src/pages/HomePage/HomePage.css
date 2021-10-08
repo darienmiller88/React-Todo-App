@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    margin: 0;
+}
+
+.home-body-color{
+    background-color: rgb(50,50,50);
+}
+
+/* Input bar + button*/
+.create-todo{
+    display: grid;
+    grid-template-columns: 85% auto;
+    width: 50vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .create-todo{
+        grid-template-columns: 75% auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .create-todo{
+        grid-template-columns: 65% auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .todo{
+        grid-template-columns: 55% auto ;
+    }
+}

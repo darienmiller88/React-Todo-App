@@ -1,0 +1,44 @@
+header{
+    background-color: var(--darker-blue);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.mini-nav{
+    background-color: var(--darker-blue);
+    overflow: hidden;
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.app-name{
+    margin: auto;
+    font-size: 40px;
+}
+
+.logout{
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    border: white 2px solid;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.logout:hover{
+    border:rgb(200, 200, 200) 2px solid;
+    color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.logout:active{
+    border:rgb(150, 150, 150) 2px solid;
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+    transform: translateY(5px);
+}

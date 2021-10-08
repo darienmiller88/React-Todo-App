@@ -1,0 +1,88 @@
+/* body{
+    background-image: linear-gradient(to right, green, var(--darker-blue));
+} */
+
+.signup-body-color{
+    background-color: var(--darker-blue)
+}
+
+.word{
+    color: green;
+}
+
+/* .signup-form{
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 40vw;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 15pt 2pt black;
+} */
+
+/* input{
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0; 
+    box-shadow: 0 0 15pt 2pt #D3D3D3;
+    outline: 0;
+    text-indent: 55px;
+}
+
+.header{
+    font-size: 40px;
+    padding: 15px;
+    color: var(--coolblue);
+}
+
+.input-container{
+    position: relative;
+}
+
+.person-circle{
+    color: var(--darker-blue);
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    left: 75px;
+}
+
+.lock{
+    color: var(--darker-blue);
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    left: 75px;
+}
+
+.create-account{
+    background-image: linear-gradient(to right, #314755 0%, var(--coolblue)  51%, var(--darkest-blue)  100%);
+    background-size: 200% auto;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+    width: 45%;
+}
+
+.create-account:hover {
+    background-position: right center; 
+    color: rgb(188, 188, 188);
+}
+
+.sign-in{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: var(--darker-blue);
+}
+
+i{
+    color: black;
+} */

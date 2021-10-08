@@ -1,0 +1,17 @@
+/* Input bar */
+#input-todo{
+    height: 40px; 
+    font-size: 25px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    background-color: var(--seethrough);
+    outline: 0;
+    transition: border-color 0.2s;
+}
+
+#input-todo:focus{
+    font-weight: 700;
+    border-width: 3px;
+    border-bottom: var(--dodger-blue) 3px solid;
+    border-image-slice: 1;
+}

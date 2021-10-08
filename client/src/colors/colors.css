@@ -1,0 +1,14 @@
+:root{
+    --coolblue: #6495ed;
+    --seethrough: rgba(255, 255, 255, 0);
+    --light-gray:rgb(215, 215, 215);
+    --darker-gray: rgb(115, 115, 115);
+    --darker-gray-alpha: rgba(115, 115, 115, 0.2);
+    --dodger-blue: rgb(30,144,255);
+    --darker-blue: rgb(30,94,255);
+    --darkest-blue: rgb(50, 44, 255);
+    --primary-green: #11998e;
+    --secondary-green: #38ef7d;
+    --primary-orange: #FF8C00;
+    --secondary-orange: #FFA500;
+}

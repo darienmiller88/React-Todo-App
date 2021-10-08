@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <title>Document</title>
+        <style>
+            .signup-form{
+                text-align: center;
+                margin: auto;
+                margin-top: 5%;
+                width: 40vw;
+                height: fit-content;
+                border-radius: 15px;
+                background-color: green;
+                box-shadow: 0 0 15pt 2pt grey;
+                padding: 25px 35px;
+            }
+
+            input{
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 15px;
+                padding: 10px;
+                border-radius: 20px;
+                border: 0; 
+                box-shadow: 0 0 15pt 2pt #D3D3D3;
+                outline: 0;
+                text-indent: 40px;
+            }
+            
+            .header{
+                font-size: 40px;
+                padding: 15px;
+                color:blue;
+            }
+
+            .input-container{
+                position: relative;
+            }
+
+            i{
+                color: blue;
+                position: absolute;
+                font-size: 16px;
+                top: 30px;
+                left: 17px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="signup-form">
+            <div class="header">Sign in</div>   
+            <h6>And enjoy your todo list!</h6>        
+            <div class="input-container">
+                <i class="bi bi-person-circle"></i>
+                <input type="text" required placeholder="Username"/> 
+            </div>
+        </form>
+    </body>
+</html>

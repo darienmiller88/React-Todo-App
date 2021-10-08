@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+:root{
+    --coolblue: #6495ed;
+    --seethrough: rgba(255, 255, 255, 0);
+    --light-gray:rgb(215, 215, 215);
+    --darker-gray: rgb(115, 115, 115);
+    --darker-gray-alpha: rgba(115, 115, 115, 0.2);
+    --dodger-blue: rgb(30,144,255);
+    --darker-blue: rgb(30,94,255);
+    --darkest-blue: rgb(50, 44, 255);
+    --primary-green: #11998e;
+    --secondary-green: #38ef7d;
+    --primary-orange: #FF8C00;
+    --secondary-orange: #FFA500;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgb(50,50,50);
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.mini-nav{
+    background-color: var(--darker-blue);
+    overflow: hidden;
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.app-name{
+    margin: auto;
+    font-size: 40px;
+}
+
+.logout{
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+.logout:hover{
+    border:rgb(200, 200, 200) 2px solid;
+    color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.logout:active{
+    border:rgb(150, 150, 150) 2px solid;
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+/* Form body to store todos */
+.todo-form{
+    text-align: center;
+    background-color: var(--seethrough);
+    width: fit-content;
+    height: 50vh;
+    margin: 0 auto;
+    overflow-y: auto;
+    /* border: 2px solid black; */
+}
+
+/* Input bar + button*/
+.create-todo{
+    display: grid;
+    grid-template-columns: 85% auto;
+    width: 50vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* checkbox */
+#todo-completed{
+    margin-left: 5px;
+    margin-right: 10px;
+    top: 50%;
+    transform: translateY(15%);
+    height: 20px;
+    width: 20px;
+}

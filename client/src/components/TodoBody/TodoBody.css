@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+/* The actual todo  */
+.todo{
+    width: 50vw;
+    background-color: var(--darker-gray);
+    border: 1px solid rgb(20,20,20);
+    border-bottom: 0;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 7% 80% auto auto;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.todo-checked{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.todo:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom:  1px solid black;
+}
+
+.create-todo{
+    display: grid;
+}
+
+/* checkbox */
+#todo-completed{
+    margin-left: 5px;
+    margin-right: 10px;
+    top: 50%;
+    transform: translateY(15%);
+    height: 20px;
+    width: 20px;
+}
+
+i{
+    color: blue;
+}
+
+/* Properties for the buttons to edit and delete tasks */
+.base-button{
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    border: 2px white solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.edit-button{
+    background-color: rgb(0, 225, 0);
+    margin-right: 5px;
+}
+
+.delete-button{
+    background-color: rgb(255, 0, 0);
+    margin-left: 5px;
+}
+
+.edit-button:hover{
+    background-color: rgba(0, 200, 0, 0.8);
+}
+
+.delete-button:hover{
+    background-color: rgba(200, 0, 0, 0.8);
+}
+
+.edit-button:active{
+    background-color: rgba(0, 150, 0, 0.8);
+    border: 2px solid rgb(50, 50, 50);
+}
+
+.delete-button:active{
+    background-color: rgba(150, 0, 0, 0.8);
+    border: 2px solid rgb(50, 50, 50);
+} 
+
+.todo-title{
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .todo{
+        grid-template-columns: 15% 70% auto auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .todo{
+        grid-template-columns: 10% 70% auto auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .todo{
+        grid-template-columns: 15% 60% auto auto;
+    }
+}
